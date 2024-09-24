@@ -1,0 +1,183 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana;
+}
+
+.navbar {
+    background-color: #3c096c;
+    width: 100%;
+    height: 70px;
+    color: white;
+    position: fixed;
+}
+
+.logo {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.menu {
+    margin-left: 950px;
+    padding-top: 27px;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover {
+    color: #db29c1;
+    font-style: italic;
+}
+
+.banner {
+    background-color: #7d46d4;
+    height: 700px;
+    text-align: center;
+    color: white;
+}
+
+.banner img {
+    border-radius: 100px;
+    height: 150px;
+    border: 6px solid white;
+    margin-top: 150px;
+}
+
+.banner h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner button {
+    margin-top: 50px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+}
+
+.banner button:hover {
+    background-color: #7d46d4;
+    color: white;
+    border: 1px solid white;
+}
+
+h1 span:before{
+    content: '';
+    animation: gerak infinite 8s ease;
+    transform: translateY(-50%);
+    color: #481caf;
+    font-size: 45px;
+}
+
+@keyframes gerak {
+    0% {
+        content: 'Selamat datang di website saya';
+    }
+
+    50% {
+        content: 'Nama Saya Chelo Arung Samudro';
+    }
+
+    100% {
+        content: 'Makasih dah berkunjung hhe';
+    }
+}
+
+.box-pendidikan {
+    text-align: center;
+    color: #4d4d4d;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column; /* Atur tata letak secara vertikal */
+    align-items: center; /* Pusatkan konten secara horizontal */
+}
+
+.box-pendidikan h1 {
+    margin-bottom: 30px; /* Tambah jarak antara heading dan box */
+}
+
+.box-container {
+    display: flex;
+    justify-content: center; /* Untuk memusatkan tiga box */
+    gap: 20px; /* Tambahkan jarak antar box */
+}
+
+.box-kiri, .box-tengah, .box-kanan {
+    width: 350px;
+    height: 400px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 30px 10px;
+    border-radius: 10px;
+    margin: 30px; /* Jarak yang lebih seimbang */
+}
+
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover {
+    background-color: #9f69f7;
+    color: white;
+}
+
+.box-pendidikan h3, p {
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+
+.box-hobi {
+    text-align: center;
+    color: #4d4d4d;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column; /* Atur tata letak secara vertikal */
+    align-items: center; /* Pusatkan konten secara horizontal */
+}
+
+.box-hobi h1 {
+    margin-bottom: 30px; /* Tambah jarak antara heading dan box */
+}
+
+.box-hobi h3, p {
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+
+.box-hobi img {
+    height: 140px;
+}
+
+.box-kontak {
+    text-align: center;
+    color: #4d4d4d;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column; /* Atur tata letak secara vertikal */
+    align-items: center; /* Pusatkan konten secara horizontal */
+}
+
+.box-kontak img {
+    height: 140px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    color: rgb(255, 255, 255);
+    background-color: grey;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    padding-top: 2px;
+    margin: 50px auto 0px;
+}
